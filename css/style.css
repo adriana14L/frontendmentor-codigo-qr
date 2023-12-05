@@ -1,0 +1,120 @@
+
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+   background-color: hsl(212, 45%, 89%);
+    font-family: 'Outfit', sans-serif;
+    font-weight:(400,700);
+    max-width: 100%;
+ 
+   /* border: 5px solid rgb(103, 191, 40);*/
+}
+.container{
+   /*border: 5px solid red;*/
+   max-width: 100%;
+    height:auto;
+    display: flex;
+    justify-content: center;
+    
+    padding-top: 30px;/*para separar el cuadro blanco */
+   padding-bottom: 60px;
+}
+.box {
+    /*border: 5px solid darkblue;*/
+    background-color:hsl(0, 0%, 100%) ;
+    font-size: 15px;
+    width: 30%;
+    margin: auto;
+    line-height: 1.8em; /* O el valor que sea adecuado */
+    position: relative;
+  text-align: center;
+  vertical-align: middle;
+  padding-top: 30px;
+  border-radius: 40px;
+  /*padding-left: 20px;
+  padding-right: 20px;*/
+}
+.box img{
+   /* border: 5px solid rgb(210, 102, 102);*/
+    width: 80%;
+    height: 40%;
+    border-radius: 30px;
+    
+    
+   
+}
+h1{
+    color: hsl(218, 44%, 22%);
+    margin-bottom: 20px;/*para que exista espacio entre parrafos */
+    line-height: 1.5em;
+}
+
+p{
+    font-size: 15px;
+    color: hsl(220, 15%, 55%);
+    margin-bottom: 0;
+ line-height: 1.4em;/**/
+ margin-bottom:40px ;
+}
+@media only screen and (max-width: 600px){
+    body{
+        background-color: hsl(212, 45%, 89%);
+         font-family: 'Outfit', sans-serif;
+         font-Weight:(400,700);
+         width: 375px;
+      
+        /* border: 5px solid rgb(103, 191, 40);*/
+     }
+     .container{
+        /*border: 5px solid red;*/
+         width: 375px;
+         
+        padding-bottom: 40px;
+     }
+     .box {
+      align-items: center;
+      
+        width: 90%;
+      padding-bottom: 30px;
+      /*padding-left: 20px;
+      padding-right: 20px;*/
+    }
+     .box img{
+        /* border: 5px solid rgb(210, 102, 102);*/
+        height: auto; /* Mantiene la relación de aspecto */
+         border-radius: 30px;
+         
+     }
+     .box img{
+        /* border: 5px solid rgb(210, 102, 102);*/
+         width: 80%;
+         height: 40%;
+         border-radius: 30px;
+         
+     }
+}
+@media only screen and (min-width: 601px) and (max-width: 768px) {
+   .box {
+      
+      width: 90%;
+    padding-bottom: 30px;
+    /*padding-left: 20px;
+    padding-right: 20px;*/
+    
+  }
+   .box img{
+      /* border: 5px solid rgb(210, 102, 102);*/
+      height: auto; /* Mantiene la relación de aspecto */
+       border-radius: 30px;
+       
+   }
+   .box img{
+      /* border: 5px solid rgb(210, 102, 102);*/
+       width: 80%;
+       height: 40%;
+       border-radius: 30px;
+       
+   }
+}
